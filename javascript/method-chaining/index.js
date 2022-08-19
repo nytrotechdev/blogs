@@ -46,4 +46,7 @@ class Calculator{
 
 var NewNumber = new Calculator(12);
 
-console.log(NewNumber.add("10").subtract(2).multiply(5).divide(4).result());
+console.log(NewNumber.add(10).subtract(2).multiply(5).divide(4).result());
+
+// FOR VALIDATION CHECK
+// console.log(NewNumber.add("10").subtract(2).multiply(5).divide(4).result());
